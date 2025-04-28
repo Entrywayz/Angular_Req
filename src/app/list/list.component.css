@@ -1,0 +1,42 @@
+.container__list {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    padding: 20px;
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .container__list::-webkit-scrollbar {
+    display: block;
+}
+
+  .container__list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item__container {
+    flex-shrink: 0;
+    width: 350px;
+    margin-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .item__container img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .itemscroll_text {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 15px;
+  }

@@ -1,0 +1,15 @@
+
+.list__container {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    height: 10px; /* Делаем горизонтальную полосу прокрутки лучше */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: gray; /* Придаем ей серость цвета мокруга */
+  }
